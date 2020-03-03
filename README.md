@@ -12,8 +12,7 @@ mySwitch.toggle(); // toggles switch
 console.log(mySwitch.status);  // => "on" or "off"
 ```
 
-### Activity Calendar
-**WORK IN PROGRESS**
+### Activity Calendar (WORK IN PROGRESS)
 ```js
 myCal = document.querySelector("dcts-activity-calendar");
 myCal.randomize(); // randomly assign values for each day
