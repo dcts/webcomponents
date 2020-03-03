@@ -9,18 +9,31 @@
   <!-- LOAD WEBCOMPONENTS! -->
   <script src="js/components/dcts-switch/DctsSwitch.js"></script>
   <script src="js/components/dcts-activity-calendar/DctsActivityCalendar.js"></script>
+  <script src="js/components/dcts-goal-tracker/DctsGoalTracker.js"></script>
 
   <!-- ACTUALL PAGE STARTS HERE -->
   <div class="wrapper">
-    <h1>My Webcomponents</h1>
-    <h4>switch</h4>
-    <div class="flex">
-      <dcts-switch id="mySwitch"></dcts-switch>
-    </div>
+    <div class="wrapper-inner">
+      <h1>My Webcomponents</h1>
+      <h4>switch</h4>
+      <div class="flex">
+        <dcts-switch id="mySwitch"></dcts-switch>
+      </div>
 
-    <h4>Activity Calendar</h4>
-    <div class="flex">
-      <dcts-activity-calendar id="myActivityCalendar"></dcts-activity-calendar>
+      <h4>Activity Calendar</h4>
+      <div class="flex">
+        <dcts-activity-calendar id="myActivityCalendar"></dcts-activity-calendar>
+      </div>
+
+      <h4>Goal Tracker</h4>
+      <div id="goalTrackerContainer" class="flex justify-space-between">
+        <dcts-goal-tracker id="myGoalTrackerWater"></dcts-goal-tracker>
+        <dcts-goal-tracker id="myGoalTrackerMeditation"></dcts-goal-tracker>
+      </div>
+
+      <h4>Custom Timeline</h4>
+      <div class="flex">
+      </div>
     </div>
   </div>
 </body>
@@ -29,5 +42,21 @@
 <script>
   // get all webcompoents as DOM elements!
   const mySwitch = document.getElementById("mySwitch");
-  const myActivityCalendar = document.getElementById("myActivityCalendar");
+  const myCal = document.getElementById("myActivityCalendar");
+
+  const myWarterTracker = document.getElementById("myGoalTrackerWater");
+  myWarterTracker.title = "WATER";
+  myWarterTracker.unit = "liter";
+  myWarterTracker.color = "#10316b";
+  myWarterTracker.max = 3;
+  myWarterTracker.step = 0.25;
+  myWarterTracker.current = 0;
+
+  const myMeditationTracker = document.getElementById("myGoalTrackerMeditation");
+  myMeditationTracker.title = "MEDITATION";
+  myMeditationTracker.unit = "min";
+  myMeditationTracker.color = "#f47d31";
+  myMeditationTracker.max = 20;
+  myMeditationTracker.step = 5;
+  myMeditationTracker.current = 0;
 </script>

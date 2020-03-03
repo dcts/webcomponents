@@ -1,13 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Karla|Montserrat|Nanum+Gothic|Nunito+Sans|Roboto&display=swap');
+
 body {
   margin: 0 auto;
   background-color: rgba(0,0,0,0.05);
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-family: 'Inconsolata', monospace;
+  font-family: 'Karla', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+h4 {
+  margin-top: 40px;
 }
 
 .wrapper {
+  min-height: 100vh;
   width: 100vw;
   max-width: 800px;
   margin: 0 auto;
+  background-color: white;
+}
+
+.wrapper-inner {
   padding: 40px;
   padding-top: 20px;
-  background-color: white;
+}
+
+.flex {
+  display: flex;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-space-between {
+  justify-content: space-between;
+}
+
+#goalTrackerContainer {
+  width: 350px !important;
 }
