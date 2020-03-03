@@ -19,3 +19,17 @@ myCal = document.querySelector("dcts-activity-calendar");
 myCal.randomize(); // randomly assign values for each day
 ```
 
+### Goal Tracker
+```js
+const myTracker = document.getElementById("myGoalTrackerWater");
+myTracker.title = "WATER";
+myTracker.unit = "liter";
+myTracker.color = "#10316b";
+myTracker.max = 3;
+myTracker.step = 0.25;
+myTracker.current = 0;
+
+myTracker.increase(); // increase the progress bar by 1 step
+myTracker.decrease(); // decrease the progress bar by 1 step
+```
+
