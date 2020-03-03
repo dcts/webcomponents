@@ -4,7 +4,7 @@ class DctsActivityCalendar extends HTMLElement {
     super();
     this.shadow = this.attachShadow({mode: 'open'});
     this._startDate = "2020-01-01"; // date starting
-    this._activity = [0,0,10,12,42,5,2,1,5,2,526,2,3,13];
+    this._activity = [0,0,10,12,42,5,2,1,5,2,526,2,3,13,1,5,2,526,2,3,13,12,56,2,14,97,24,15,264,12,0,0,1,23];
     this._color = "slateblue";
   }
 
@@ -19,11 +19,9 @@ class DctsActivityCalendar extends HTMLElement {
     });
   }
 
-
-
   initialize() {
     let max = -100000000;
-    [0,0,10,12,42,5,2,1,5,2,526,2,3,13].forEach(num => {
+    [0,0,10,12,42,5,2,1,5,2,526,2,3,13,1,5,2,526,2,3,13,12,56,2,14,97,24,15,264,12,0,0,1,23].forEach(num => {
       if (num > max) max = num;
     });
     this._activityMax = max;
@@ -58,6 +56,174 @@ class DctsActivityCalendar extends HTMLElement {
       </style>
 
       <div class="calendar-grid-container">
+        <div class="calendar-grid-item">
+          <div class="calendar-grid-item-box">
+          </div>
+        </div>
+        <div class="calendar-grid-item">
+          <div class="calendar-grid-item-box">
+          </div>
+        </div>
+        <div class="calendar-grid-item">
+          <div class="calendar-grid-item-box">
+          </div>
+        </div>
+        <div class="calendar-grid-item">
+          <div class="calendar-grid-item-box">
+          </div>
+        </div>
+        <div class="calendar-grid-item">
+          <div class="calendar-grid-item-box">
+          </div>
+        </div>
+        <div class="calendar-grid-item">
+          <div class="calendar-grid-item-box">
+          </div>
+        </div>
+        <div class="calendar-grid-item">
+          <div class="calendar-grid-item-box">
+          </div>
+        </div>
+        <div class="calendar-grid-item">
+          <div class="calendar-grid-item-box">
+          </div>
+        </div>
+        <div class="calendar-grid-item">
+          <div class="calendar-grid-item-box">
+          </div>
+        </div>
+        <div class="calendar-grid-item">
+          <div class="calendar-grid-item-box">
+          </div>
+        </div>
+        <div class="calendar-grid-item">
+          <div class="calendar-grid-item-box">
+          </div>
+        </div>
+        <div class="calendar-grid-item">
+          <div class="calendar-grid-item-box">
+          </div>
+        </div>
+        <div class="calendar-grid-item">
+          <div class="calendar-grid-item-box">
+          </div>
+        </div>
+        <div class="calendar-grid-item">
+          <div class="calendar-grid-item-box">
+          </div>
+        </div>
+        <div class="calendar-grid-item">
+          <div class="calendar-grid-item-box">
+          </div>
+        </div>
+        <div class="calendar-grid-item">
+          <div class="calendar-grid-item-box">
+          </div>
+        </div>
+        <div class="calendar-grid-item">
+          <div class="calendar-grid-item-box">
+          </div>
+        </div>
+        <div class="calendar-grid-item">
+          <div class="calendar-grid-item-box">
+          </div>
+        </div>
+        <div class="calendar-grid-item">
+          <div class="calendar-grid-item-box">
+          </div>
+        </div>
+        <div class="calendar-grid-item">
+          <div class="calendar-grid-item-box">
+          </div>
+        </div>
+        <div class="calendar-grid-item">
+          <div class="calendar-grid-item-box">
+          </div>
+        </div>
+        <div class="calendar-grid-item">
+          <div class="calendar-grid-item-box">
+          </div>
+        </div>
+        <div class="calendar-grid-item">
+          <div class="calendar-grid-item-box">
+          </div>
+        </div>
+        <div class="calendar-grid-item">
+          <div class="calendar-grid-item-box">
+          </div>
+        </div>
+        <div class="calendar-grid-item">
+          <div class="calendar-grid-item-box">
+          </div>
+        </div>
+        <div class="calendar-grid-item">
+          <div class="calendar-grid-item-box">
+          </div>
+        </div>
+        <div class="calendar-grid-item">
+          <div class="calendar-grid-item-box">
+          </div>
+        </div>
+        <div class="calendar-grid-item">
+          <div class="calendar-grid-item-box">
+          </div>
+        </div>
+        <div class="calendar-grid-item">
+          <div class="calendar-grid-item-box">
+          </div>
+        </div>
+        <div class="calendar-grid-item">
+          <div class="calendar-grid-item-box">
+          </div>
+        </div>
+        <div class="calendar-grid-item">
+          <div class="calendar-grid-item-box">
+          </div>
+        </div>
+        <div class="calendar-grid-item">
+          <div class="calendar-grid-item-box">
+          </div>
+        </div>
+        <div class="calendar-grid-item">
+          <div class="calendar-grid-item-box">
+          </div>
+        </div>
+        <div class="calendar-grid-item">
+          <div class="calendar-grid-item-box">
+          </div>
+        </div>
+        <div class="calendar-grid-item">
+          <div class="calendar-grid-item-box">
+          </div>
+        </div>
+        <div class="calendar-grid-item">
+          <div class="calendar-grid-item-box">
+          </div>
+        </div>
+        <div class="calendar-grid-item">
+          <div class="calendar-grid-item-box">
+          </div>
+        </div>
+        <div class="calendar-grid-item">
+          <div class="calendar-grid-item-box">
+          </div>
+        </div>
+        <div class="calendar-grid-item">
+          <div class="calendar-grid-item-box">
+          </div>
+        </div>
+        <div class="calendar-grid-item">
+          <div class="calendar-grid-item-box">
+          </div>
+        </div>
+        <div class="calendar-grid-item">
+          <div class="calendar-grid-item-box">
+          </div>
+        </div>
+        <div class="calendar-grid-item">
+          <div class="calendar-grid-item-box">
+          </div>
+        </div>
         <div class="calendar-grid-item">
           <div class="calendar-grid-item-box">
           </div>
