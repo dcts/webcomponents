@@ -33,3 +33,11 @@ myTracker.increase(); // increase the progress bar by 1 step
 myTracker.decrease(); // decrease the progress bar by 1 step
 ```
 
+# Hosting
+webcomponents library is hosted via firebase. Url: https://webcomponent-library.firebaseapp.com/
+
+### push to production
+```bash
+firebase login # login to redingstreet@gmail.com google account and select project
+firebase deploy --only hosting # push to production
+```
