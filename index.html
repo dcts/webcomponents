@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/basics.css">
+  <title>WebComponent Library</title>
+</head>
+<body>
+  <!-- LOAD WEBCOMPONENTS! -->
+  <script src="js/components/dcts-switch/DctsSwitch.js"></script>
+  <script src="js/components/dcts-activity-calendar/DctsActivityCalendar.js"></script>
+
+  <!-- ACTUALL PAGE STARTS HERE -->
+  <div class="wrapper">
+    <h1>My Webcomponents</h1>
+    <h4>switch</h4>
+    <div class="flex">
+      <dcts-switch id="mySwitch"></dcts-switch>
+    </div>
+
+    <h4>Activity Calendar</h4>
+    <div class="flex">
+      <dcts-activity-calendar id="myActivityCalendar"></dcts-activity-calendar>
+    </div>
+  </div>
+</body>
+</html>
+
+<script>
+  // get all webcompoents as DOM elements!
+  const mySwitch = document.getElementById("mySwitch");
+  const myActivityCalendar = document.getElementById("myActivityCalendar");
+</script>
